@@ -12,6 +12,8 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { SellComponent } from './pages/sell/sell.component';
 import { ConverterComponent } from './pages/converter/converter.component';
+import { DragDropModule } from '@angular/cdk/drag-drop';
+import { MatGridListModule } from '@angular/material/grid-list'
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { ConverterComponent } from './pages/converter/converter.component';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
+    MatGridListModule,
+    DragDropModule,
     MatSidenavModule,
     RouterModule.forRoot([
       {path: "buy", component: HomeComponent},
