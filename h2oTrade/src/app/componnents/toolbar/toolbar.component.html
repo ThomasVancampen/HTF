@@ -1,0 +1,26 @@
+
+<mat-drawer #drawer class="example-sidenav" mode="side" position="end">
+  <button mat-icon-button (click)="drawer.toggle()" class="close" aria-label="Example icon-button with menu icon">
+    <mat-icon class="letterColor top">close</mat-icon>
+  </button>
+  <nav>
+    <ul class="letterColor">
+      <li><a routerLink="/sell">Sell Assets</a></li>
+      <li><a routerLink="/buy">Buy Assets</a></li>
+      <li><a routerLink="/converter">Convert to water</a></li>
+    </ul>
+  </nav>
+</mat-drawer>
+
+<p>
+  <mat-toolbar class="color">
+    <mat-toolbar-row>
+      <a routerLink="/home"><span class="letterColor">BTP</span></a>
+      <span class="example-spacer"></span>
+      <button mat-icon-button (click)="drawer.toggle()" class="example-icon"
+              aria-label="Example icon-button with menu icon">
+        <mat-icon class="letterColor top">menu</mat-icon>
+      </button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</p>

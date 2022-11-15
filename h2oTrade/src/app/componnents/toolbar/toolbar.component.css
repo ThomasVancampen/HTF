@@ -1,0 +1,46 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  width: 60%;
+  background-color: 		#6495ED;
+}
+
+.color {
+  background-color: 		#6495ED;
+}
+
+.letterColor {
+  color: white;
+}
+
+ul {
+  margin-top: 20%;
+  text-align: center;
+  list-style-type: none;
+}
+
+ul li {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-size: x-large;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.close {
+  position: absolute;
+  right: 9px;
+  top: 9px;
+}
